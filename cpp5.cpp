@@ -1,8 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-    float r=10,c;
-    c=2*3.1415*r;
-    cout<<"Circumference of circle:"<<c;
-
+    char a,b;
+    cout<<"Enter the first character:";
+    cin>>a;
+    cout<<"Enter the second character:";
+    cin>>b;
+    cout<<"Difference:"<<b-a<<endl;
+    return 0;
 }
